@@ -1,0 +1,21 @@
+py_spiral_matrix
+
+py_spiral_matrix.py
+
+Énoncé
+    Écris une fonction qui génère une matrice 2D `n x n` remplie de nombres de 1 à `n^2` dans l'ordre d'une spirale dans le sens des aiguilles d'une montre.
+
+    La spirale commence dans la case en haut à gauche (0, 0) vers la droite, puis vers le bas, la gauche et le haut.
+
+Signature de la fonction
+    def generate_spiral(n: int) -> list[list[int]]:
+
+Exemples
+    Entrée
+        generate_spiral(3)
+    Sortie
+        [[1, 2, 3], [8, 9, 4], [7, 6, 5]]
+    Entrée
+        generate_spiral(1)
+    Sortie
+        [[1]]

@@ -1,0 +1,12 @@
+{
+    "python.languageServer": "Pylance",
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.tabCompletion": "on"
+}
