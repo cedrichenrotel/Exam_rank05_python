@@ -6,7 +6,9 @@ def generate_spiral(n: int) -> list[list[int]]:
     est: int = n - 1
     sud: int = n - 1
     ouest: int = 0
-    # rst: list[list[int]] = []
+
+    if n <= 0:
+        return []
 
     while val <= total_case:
         # nord
