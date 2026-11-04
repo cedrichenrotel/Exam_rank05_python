@@ -1,0 +1,26 @@
+py_island_matrix_counter
+
+py_island_matrix_counter.py
+
+Énoncé
+    Écris une fonction `island_matrix_counter(matrix)` qui renvoie le nombre total d'îles dans une matrice 2D contenant des valeurs "1" et "0".
+
+    - Renvoie 0 si la matrice est vide.
+    - Une île est un groupe de cases "1" connectées horizontalement ou verticalement (les diagonales ne comptent pas).
+
+Signature de la fonction
+    def island_matrix_counter(matrix: list[list[str]]) -> int:
+
+Exemples
+    Entrée
+        island_matrix_counter([["1", "1", "1", "1", "0"], ["1", "1", "1", "0", "0"], ["1", "1", "1", "1", "0"], ["0", "0", "0", "0", "0"]])
+    Sortie
+        1
+    Entrée
+        island_matrix_counter([["1", "1", "0", "0", "0"], ["1", "1", "0", "0", "0"], ["0", "0", "1", "0", "0"], ["0", "0", "0", "1", "1"]])
+    Sortie
+        3
+    Entrée
+        island_matrix_counter([])
+    Sortie
+        0

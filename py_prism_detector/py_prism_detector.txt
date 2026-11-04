@@ -1,0 +1,22 @@
+py_prism_detector
+
+py_prism_detector.py
+
+Énoncé
+    Écris une fonction qui cherche toutes les occurrences d'un mot cible dans une grille 2D dans les 8 directions.
+
+    - Renvoie une liste de tuples `(x, y, code_direction)`.
+    - Renvoie `[]` si la grille ou le mot est vide.
+
+Signature de la fonction
+    def prism_detector(grid: list[str], pattern: str):
+
+Exemples
+    Entrée
+        prism_detector(["CAT", "A..", "T.."], "CAT")
+    Sortie
+        [(0, 0, "H"), (0, 0, "V")]
+    Entrée
+        prism_detector([], "CAT")
+    Sortie
+        []
