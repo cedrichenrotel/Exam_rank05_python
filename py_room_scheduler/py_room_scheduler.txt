@@ -18,7 +18,7 @@ Exemples
     Entrée
         py_room_scheduler([[0, 30], [5, 10], [15, 20]])
     Sortie
-        {"total_rooms": 2, "schedule": [[[0, 30]], [[5, 10], [15, 20]]]}
+        {"total_rooms": 2, "schedule": [1[[0, 30]], [[5, 10], 2[15, 20]]]}
     Entrée
         py_room_scheduler([])
     Sortie

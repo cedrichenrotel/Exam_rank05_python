@@ -32,7 +32,9 @@ def py_room_scheduler(meetings: list[list[int]]) -> dict[str, Any]:
         else:
             schedule.append([meeting])
     rst["total_rooms"] = len(schedule)
-    rst["schedule"] = schedule
+    rst["schedule"] = [
+        [num, salle] for num, salle in enumerate(schedule, start=1)
+    ]
     return rst
 
 
