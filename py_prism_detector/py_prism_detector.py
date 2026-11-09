@@ -4,17 +4,17 @@ def prism_detector(grid: list[str], pattern: str):
         return []
 
     directions = [
-        (-1, 0, "N"),
-        (-1, 1, "NE"),
-        (0, 1, "E"),
-        (1, 1, "SE"),
-        (1, 0, "S"),
-        (1, -1, "SO"),
-        (0, -1, "O"),
-        (-1, -1, "NO"),
+        (0, 1, "H"),     # droite
+        (1, 0, "V"),     # bas
+        (1, 1, "D"),     # bas-droite
+        (-1, 1, "A"),    # haut-droite
+        (0, -1, "HR"),   # gauche
+        (-1, 0, "VR"),   # haut
+        (-1, -1, "DR"),  # haut-gauche
+        (1, -1, "AR"),   # bas-gauche
     ]
-    cols = len(grid)
-    lines = len(grid[0])
+    lines = len(grid)
+    cols = len(grid[0])
     rst = []
 
     for line in range(lines):

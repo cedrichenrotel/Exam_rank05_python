@@ -25,6 +25,7 @@ def word_ladder(start: str, end: str, sentence: list[str]) -> int:
     while level:
         if end in level:
             return count
+
         next_level = []
         for word in level:
             for w in sentence:
